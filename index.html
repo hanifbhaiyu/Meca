@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <h2>Audio</h2>
+    <!-- <h2>Audio</h2>
 
     <audio controls src="/Audio/Epic Spectrum - Happy New Year (freetouse.com).mp3"></audio>
 
@@ -79,8 +85,61 @@
     <footer>
         <p>Copy right &copy; 2021</p>
 
-    </footer>
+    </footer> -->
 
+    <header>
+
+    </header>
+    <main>
+        <section>
+            <h2>Fill up the form</h2>
+            <form>
+                <label for="Name"> Your name
+                    <input type="text" placeholder="Enter your name">
+                </label>
+                <label for="email">Your Email
+                    <input type="email" placeholder="Enter your email">
+                </label>
+
+
+
+                <fieldset>
+                    <legend>Pick one pitha</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="P" id="chitoy"> Chitoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="P" id="vapa"> Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="P" id="puri"> Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+
+
+                    <legend>Pick one or more vorta</legend>
+                    <label for="Sorisha ">
+                        <input type="checkbox" name="vorta" id="Sorisha er vorta"> Sorisha 
+                    </label>
+                    <label for="Morich">
+                        <input type="checkbox" name="vorta" id="Aam er vorta"> Morich
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>SP</legend> 
+                    <textarea name="" id="" cols="15" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="reset" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 
 
 
