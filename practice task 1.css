@@ -1,0 +1,73 @@
+/* Overall Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Search Section */
+.search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-section label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image Styling */
+.panda-image {
+    display: block;
+    margin: 20px auto;
+    width: 220px;
+    height: 200px;
+}
+
+/* Link Styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Feedback Form */
+.feedback-form {
+    margin-top: 20px;
+}
+
+.feedback-form p {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+

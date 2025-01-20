@@ -1,7 +1,15 @@
-nav > ul > li {
+/* nav > ul > li {
   display: inline;
   margin: 15px;
-}
+} */
 footer{
   text-align: center;
+}
+table {
+  border-collapse: collapse;
+  
+}
+td,th {
+  border: 1px solid black;
+  padding: 5px 15px;
 }
